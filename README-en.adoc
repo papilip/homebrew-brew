@@ -1,0 +1,6 @@
+= Homebrew for papilip’s formules
+papilip <me+github-homebrew-brew@papilip.me>
+
+```bash
+brew tap papilip/brew
+```
