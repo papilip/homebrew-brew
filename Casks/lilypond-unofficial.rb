@@ -4,7 +4,7 @@ cask 'lilypond-unofficial' do
 
   # bintray.com/marnen/lilypond-darwin-64/download_file?file_path=lilypond- was verified as official when first introduced to the cask
   url "https://bintray.com/marnen/lilypond-darwin-64/download_file?file_path=lilypond-#{version}.build20200311175017-darwin-64.tar.gz"
-  # appcast 'https://lilypond.org/macos-x.html'
+  appcast 'https://bintray.com/marnen/lilypond-darwin-64/lilypond-2.20.0#release'
   name 'LilyPond'
   homepage 'https://lilypond.org/'
 
